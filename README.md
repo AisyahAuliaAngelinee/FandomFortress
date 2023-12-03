@@ -1,9 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13041278&assignment_repo_type=AssignmentRepo)
-
-# P2-Challenge-1 (Server Side)
-
-> Tuliskan API Docs kamu di sini
-
 # **Fandom Fortress**: Make Your Lodging Like "**ISEKAI**"
 
 ### A simple webserver API that provides convenient and secure lodging listings. API that provides facilities to View, create, view in detail, and delete. APIs that can be used publicly, and can also be used as practice. Here is the link for the [**API**](https://vclrshna.online) that can be used.
