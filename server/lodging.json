@@ -1,0 +1,202 @@
+[
+	{
+		"name": "Fraser Residence Sudirman Jakarta",
+		"facility": "Swimming pool, AC, Restaurant, Wifi, Spa, Children facility, Fitness center, 24-hour front desk, Proof of covid-19 vaccination, Ticket CLEAN, Elevator",
+		"roomCapacity": 6,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2020/10/31/41e48f3e-a16f-4280-a27f-a646918ea493-1604135331200-6656ddb5cb57f0b924dce325c158d88d.jpg",
+		"location": "Jl Setiabudi Raya no 9, Jakarta Pusat, Jakarta.",
+		"price": 6382166,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "RedDoorz Plus near Soekarno Hatta Airport 2",
+		"facility": "Keamanan 24jam, Parkir dua roda, Lift, Wifi Gratis",
+		"roomCapacity": 1,
+		"imgUrl": "https://images.reddoorz.com/photos/164842/desktop_hotel_gallery_large_900x600__DDP5851.webp",
+		"location": "Jakarta",
+		"price": 174152,
+		"typeId": 3,
+		"authorId": 1
+	},
+	{
+		"name": "Sans Hotel Puri Indah Jakarta",
+		"facility": "Kamar 1 AC, Kulkas, dan Kasur",
+		"roomCapacity": 3,
+		"imgUrl": "https://images.reddoorz.com/photos/238492/desktop_hotel_gallery_large_900x600_DSCF7067.webp",
+		"location": "Jakarta",
+		"price": 401890,
+		"typeId": 1,
+		"authorId": 1
+	},
+	{
+		"name": "Sans Hotel Puri Indah Jakarta",
+		"facility": "Wifi Gratis, Perlengkapan Mandi, Resepsionis, Toilet, TV, 2 Kasur",
+		"roomCapacity": 2,
+		"imgUrl": "https://images.reddoorz.com/photos/238492/desktop_hotel_gallery_large_900x600_DSCF7067.webp",
+		"location": "Jakarta",
+		"price": 359100,
+		"typeId": 1,
+		"authorId": 1
+	},
+	{
+		"name": "RedDoorz Plus @ TB Simatupang",
+		"facility": "Resepsionis, Wifi Gratis, Televisi, Air Mineral, Kamar bebas rokok, Keamanan, Handuk, Linen berkualitas, Parkir mobil, Toilet, Geyser",
+		"roomCapacity": 2,
+		"imgUrl": "https://images.reddoorz.com/photos/102723/desktop_hotel_gallery_large_900x600_9f72f119-23b4-4557-a281-8bf6b686947b_2Fweb.webp",
+		"location": "TB Simatupang",
+		"price": 268167,
+		"typeId": 1,
+		"authorId": 1
+	},
+	{
+		"name": "RedDoorz Premium near RS Pondok Indah",
+		"facility": "Keamanan 24 jam, Parkir roda dua, Rapat, Keamanan, Wifi gratis, Kamar bebas rokok, Parkir mobil, Meja penerima tamu, Resepsionis",
+		"roomCapacity": 4,
+		"imgUrl": "https://images.reddoorz.com/photos/337566/desktop_hotel_gallery_large_900x600_DSC01104.webp",
+		"location": "Jl. Metro Duta Niaga, 11, Kebayoran Lama, Indonesia, 12410",
+		"price": 515787,
+		"typeId": 1,
+		"authorId": 1
+	},
+	{
+		"name": "RedLiving Apartemen Paradise Mansion - Gunawan",
+		"facility": "Wifi gratis, AC, Resepsionis, Kulkas, Televisi, Air mineral",
+		"roomCapacity": 2,
+		"imgUrl": "https://images.reddoorz.com/photos/325726/desktop_hotel_gallery_large_900x600_IMG_9624.webp",
+		"location": "Jalan Taman Surya 5, No.2, Pegadungan, Kecamatan Kalideres, Kalideres, Indonesia, 11830",
+		"price": 620000,
+		"typeId": 3,
+		"authorId": 1
+	},
+	{
+		"name": "RedDoorz Premium near Ragunan Zoo 2",
+		"facility": "Resepsionis, Keamanan, Kamar bebas rokok, Parkir mobil, Meja penerima tamu, Wifi gratis",
+		"roomCapacity": 3,
+		"imgUrl": "https://images.reddoorz.com/photos/233307/desktop_hotel_gallery_large_900x600_DSCF6873.webp",
+		"location": "Jalan Melati no.33 Ragunan, Pasar Minggu, Jakarta Selatan, Pasar Minggu, Indonesia, 10250",
+		"price": 268760,
+		"typeId": 1,
+		"authorId": 2
+	},
+	{
+		"name": "RedDoorz Plus @ Thamrin",
+		"facility": "Keamanan 24 jam, Meja penerima tamu, Parkir roda dua, Lift, Wifi gratis, Kamar bebas rokok",
+		"roomCapacity": 3,
+		"imgUrl": "https://images.reddoorz.com/photos/389878/desktop_hotel_gallery_large_900x600_DSCF1486.webp",
+		"location": "Jl. Blora No.23, RT.2/RW.6, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta, Menteng, Indonesia, 10310",
+		"price": 268416,
+		"typeId": 3,
+		"authorId": 2
+	},
+	{
+		"name": "Urbanview Hotel Bizhome Artha Gading Boulevard",
+		"facility": "Wifi gratis, Kamar bebas rokok, Resepsionis, Perlengkapan mandi, Parkir mobil, Televisi",
+		"roomCapacity": 3,
+		"imgUrl": "https://images.reddoorz.com/photos/354229/desktop_hotel_gallery_large_900x600_DSC04294.webp",
+		"location": "Kelapa Gading Barat, Kecamatan Kelapa Gading, Kelapa Gading, Indonesia, 14240",
+		"price": 272715,
+		"typeId": 3,
+		"authorId": 2
+	},
+	{
+		"name": "RedDoorz near Setrasari Mall 4",
+		"facility": "Resepsionis, Parkir roda dua, Parkir mobil, Wifi gratis, Kamar bebas rokok, Meja penerima tamu",
+		"roomCapacity": 4,
+		"imgUrl": "https://images.reddoorz.com/photos/136993/desktop_hotel_gallery_large_900x600_7877b3f4-7caa-471a-a94b-c34fd1dcecd3_2F37.webp",
+		"location": "Jl. Terusan. Prof. DR. Sutami No.Kav 1A, Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat, Sukasari, Indonesia, 40151",
+		"price": 144459,
+		"typeId": 3,
+		"authorId": 2
+	},
+	{
+		"name": "ASTON Priority Simatupang & Conference Center",
+		"facility": "Swimming Pool, AC, Restaurant, Wifi, InDOnesia CARE, Workspace, Fitness Center, 24-hour front desk, Luggage store, Ticket CLEAN, Elevator, Meeting facilities",
+		"roomCapacity": 2,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2020/10/28/df1b2c55-28a0-4b48-a068-e6fe4e037731-1603894128112-ea78790459487f4c1325a51556331855.jpg",
+		"location": "JL. TB SIMATUPANG KAV. 9 JAKARTA SELATAN, INDONESIA",
+		"price": 1249700,
+		"typeId": 1,
+		"authorId": 2
+	},
+	{
+		"name": "Intercontinental Jakarta Pondok Indah",
+		"facility": "Swimming pool, AC, Wifi, 24-hour front desk, Fitness center, Elevator, Ticket CLEAN, Restaurant",
+		"roomCapacity": 2,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2023/09/20/2c31d1b3-5201-49d9-9172-0b655f138199-1695200499430-28679fc5c934286416e115f83b006b52.jpg",
+		"location": "Jl. Metro Pondok Indah Kav IV TA Jakarta Selatan",
+		"price": 3354878,
+		"typeId": 1,
+		"authorId": 2
+	},
+	{
+		"name": "Fraser Residence Menteng Jakarta",
+		"facility": "Swimming pool, Streaming service, Kitchen, Wifi, 24-hour front desk, TV, Ticket CLEAN, Children facility, Hair dryer, AC, Luggage storage, Patio or Balcony",
+		"roomCapacity": 8,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2021/03/12/2e125a5e-f125-4e8c-8aeb-225857c13a56-1615542910945-24d2591e9f05a6eb1368d185dbe9903f.jpg",
+		"location": "Jl. Menteng Raya No. 60 Menteng, Jakarta Pusat",
+		"price": 2461115,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Habitare Apart Hotel Rasuna Jakarta",
+		"facility": "Swimming pool, Kitchen, Bathtub, Wifi, Hair dryer, Washing machine, Ticket CLEAN, Coffee tea maker, Refrigerator, AC, Ironing",
+		"roomCapacity": 4,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2023/04/19/5e130006-3cee-4c8e-8d8a-73a695d23a5e-1681904432813-383f9cfd56d6cdb5ebc544a525bd6bbb.jpg",
+		"location": "Jl. H. R. Rasuna Said No.20, RT.1/RW.5, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940",
+		"price": 995355,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Oakwood PIK Jakarta",
+		"facility": "Swimming pool, Children facility, Patio or balcony, Wifi, Luggage storage, Coffee tea maker, Ticket CLEAN, Kitchen, Ironing, 24-hour front desk, Hair dryer, Bathtub",
+		"roomCapacity": 6,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2021/03/12/e0c01da6-9a12-4070-8168-528121ed9695-1615561101073-0ed6bd4b3bb7ff1fd7412fa3729f4a59.jpg",
+		"location": "Jalan Pantai Indah Barat - Pantai Indah Kapuk, Kamal Muara, Penjaringan",
+		"price": 1666500,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Fraser Place Setiabudi Jakarta",
+		"facility": "Swimming pool, AC, Restaurant, Wifi, InDOnesia CARE, Children facility, Fitness center, 24-hour front desk, Meeting facilities, Ticket CLEAN, Elevator, Proof of Covid-19 Vaccination",
+		"roomCapacity": 5,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2023/02/10/e22adae5-bdd0-4fab-a434-c3551a5c37b9-1676017532641-b3ffd8045ab16f015f0b3be14fb1d2ef.jpg",
+		"location": "Jl. Setia Budi Selatana Raya No. 2 RT. 18/02 Kuningan, Karet Kuningan Kecamatan setiabudi Jakarta selatan",
+		"price": 2097900,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Oakwood Premier Cozmo Jakarta",
+		"facility": "Swimming pool, BBQ equipment, Coffee tea maker, Wifi, Kitchen, Ironing, 24-hour front desk, TV, Bathtub, Children facility, Hair dryer, Washing machine",
+		"roomCapacity": 4,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2023/09/21/bae722d3-e4cc-4405-88c8-aca13a06235e-1695250217917-aaf95dc3050886d8c742196dc3db0381.jpg",
+		"location": "Jl. Dr. Ide Anak Agung Gde Agung, Blok E4.2 No. 1, Mega Kuningan, Jakarta, Jakarta, ID",
+		"price": 2683514,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Ascott Kuningan Jakarta",
+		"facility": "Swimming pool, 24-hour front desk, Hair dryer, Wifi, Children facility, Ironing, Ticket CLEAN, Luggage storage, Bathtub, AC, Kitchen, Washing machine",
+		"roomCapacity": 5,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2021/09/16/3f28316e-7ac4-4b8d-8981-88f62e5dabe4-1631777115632-88f609fc7996ec6bb33a92092afc6a55.jpg",
+		"location": "Ciputra World 1, Jalan Prof Dr Satrio Kav 3 5, 12940",
+		"price": 2808300,
+		"typeId": 2,
+		"authorId": 3
+	},
+	{
+		"name": "Ascott Jakarta",
+		"facility": "Swimming pool, 24-hour front desk, Kitchen, Wifi, Children facility, Bathtub, Ticket CLEAN, Pet-friendly, Refrigerator, AC, Luggage storage",
+		"roomCapacity": 5,
+		"imgUrl": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-mobile/tix-hotel/images-web/2021/12/07/31748bb9-0592-4099-9e72-a22dcae2488e-1638861325512-21bd4182ae1bdfd8d581e217e4a40796.jpg",
+		"location": "Jalan Kebon Kacang, Raya No 2, 10230",
+		"price": 2442000,
+		"typeId": 2,
+		"authorId": 2
+	}
+]

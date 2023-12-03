@@ -1,0 +1,26 @@
+[
+	{
+		"username": "auliaangelinee",
+		"email": "auliaangelinee@mail.com",
+		"password": "c3mun6ut",
+		"role": "admin",
+		"phoneNumber": "081399999650",
+		"address": "BSD Green Office Park 1"
+	},
+	{
+		"username": "aisyahangelinee",
+		"email": "angelinee@mail.com",
+		"password": "c3mun6ut",
+		"role": "staff",
+		"phoneNumber": "081399999650",
+		"address": "BSD Green Office Park 2"
+	},
+	{
+		"username": "angelinee",
+		"email": "aisyahangelinee@mail.com",
+		"password": "c3mun6ut",
+		"role": "staff",
+		"phoneNumber": "081399999650",
+		"address": "BSD Green Office Park 3"
+	}
+]

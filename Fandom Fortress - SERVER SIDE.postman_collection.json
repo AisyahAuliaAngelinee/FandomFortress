@@ -1,0 +1,670 @@
+{
+	"info": {
+		"_postman_id": "aa347c0c-d2ac-470f-b3cf-9f9c9cada95d",
+		"name": "Fandom Fortress | SERVER SIDE",
+		"description": "This is Fandom Fortress (Server side) RestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30820709"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "{{admin}}",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "aisyahangelinee@mail.com",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "c3mun6ut",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "cecepmarkicep123",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "cecep@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "0838555762",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Jl Jend Sudirman Kav 9 Ratu Plaza, Dki Jakarta",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/add-user",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"add-user"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Login as **ADMIN**"
+		},
+		{
+			"name": "Lodging",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Furama City Centre",
+									"type": "text"
+								},
+								{
+									"key": "facility",
+									"value": "AC, Restaurant, Swimming Pool, 24-Hour Front Desk, Parking, Elevator, Wifi",
+									"type": "text"
+								},
+								{
+									"key": "roomCapacity",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "imgUrl",
+									"value": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10015027-382dad250928e24a10a6dd84c2aaafa1.jpeg?_src=imagekit&tr=dpr-2,c-at_max,h-360,q-40,w-640",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "60 Eu Tong Sen Street, Chinatown, Singapore, 059804",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "2399999",
+									"type": "text"
+								},
+								{
+									"key": "typeId",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "authorId",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/fortress/add-fortress",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"add-fortress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Fortress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/fortress/fortress",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"fortress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/fortress/fortress/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"fortress",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Fortress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Hotel Oyo",
+									"type": "text"
+								},
+								{
+									"key": "facility",
+									"value": "Kamar 1 AC, Kulkas, Dapur, Kamar Mandi indoor, Kasur",
+									"type": "text"
+								},
+								{
+									"key": "roomCapacity",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "imgUrl",
+									"value": "https://images.reddoorz.com/photos/238492/desktop_hotel_gallery_large_900x600_DSCF7067.webp",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "401890",
+									"type": "text"
+								},
+								{
+									"key": "typeId",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/fortress/fortress/3",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"fortress",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Fortress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{URL}}/fortress/fortress/2200",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"fortress",
+								"2200"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Image",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/Users/vincentiusclarishna/Documents/HACKTIV8/Phase-2 (Repeat)/W1/Day01/gc01-AisyahAuliaAngelinee-1/desktop_hotel_gallery_large_900x600_DSCF8690.webp"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/fortress/fortress/1111",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"fortress",
+								"fortress",
+								"1111"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Login first as admin or staff"
+		},
+		{
+			"name": "Type",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/type/type-add",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"type",
+								"type-add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch-all",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/type/type",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"type",
+								"type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch-id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Suite",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/type/type/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"type",
+								"type",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL}}/type/type/4",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"type",
+								"type",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "same, Login as admin or staff"
+		},
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "Fandom Fortress",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/public/",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"public",
+								""
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "sortBy",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "keyword",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fandom Fortress By ID",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/public/10",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"public",
+								"10"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "No need to login, Just use the pagination and else"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "https://vclrshna.online",
+			"type": "string"
+		},
+		{
+			"key": "LOCALHOST",
+			"value": "http://localhost:3000",
+			"type": "string"
+		},
+		{
+			"key": "admin",
+			"value": "auliaangelinee@mail.com",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "c3mun6ut",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhdWxpYWFuZ2VsaW5lZSIsImVtYWlsIjoiYXVsaWFhbmdlbGluZWVAbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDE1Mjg4MzJ9.vDmGVechRz3h8mqRe1J1ewXpTrDK65UMmN5c6SomW_0",
+			"type": "string"
+		}
+	]
+}
