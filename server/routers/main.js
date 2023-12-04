@@ -1,8 +1,8 @@
 const router = require("express").Router();
-const LodgingRouter = require("../routers/lodging");
-const TypeRouter = require("../routers/type");
+const LodgingRouter = require("./lodging");
+const TypeRouter = require("./type");
 // const UserRouter = require("../routers/user");
-const PublicRouter = require("../routers/public");
+const PublicRouter = require("./public");
 const UserController = require("../controllers/user-controller");
 const authentication = require("../middleware/authentication");
 const authorization = require("../middleware/authorization");
