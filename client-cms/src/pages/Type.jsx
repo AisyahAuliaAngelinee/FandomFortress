@@ -59,9 +59,6 @@ const Type = () => {
 							<th scope="col" class="px-6 py-3">
 								Type Name
 							</th>
-							<th scope="col" class="px-6 py-3">
-								Action
-							</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -72,10 +69,6 @@ const Type = () => {
 									<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 										{el.name}
 									</th>
-									<td class="px-6 py-4">
-										<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Add</a>
-										<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
-									</td>
 								</tr>
 							);
 						})}

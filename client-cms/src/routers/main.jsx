@@ -22,6 +22,13 @@ const router = createBrowserRouter([
 	{
 		path: "/register",
 		element: <Register />,
+		loader: () => {
+			if (!localStorage.access_token) {
+				return redirect("/");
+			}
+
+			return null;
+		},
 	},
 	{
 		element: <Parent />,

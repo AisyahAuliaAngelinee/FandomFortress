@@ -67,6 +67,31 @@ const Lodging = () => {
 		});
 	}
 
+	// ! BUGGED (please help T-T)
+	const uploadImageHandler = () => {
+		async () => {
+			const { value: file } = await Swal.fire({
+				title: "Select image",
+				input: "file",
+				inputAttributes: {
+					accept: "image/*",
+					"aria-label": "Upload Image",
+				},
+			});
+			if (file) {
+				const reader = new FileReader();
+				reader.onload = (e) => {
+					Swal.fire({
+						title: "Your uploaded picture",
+						imageUrl: e.target.result,
+						imageAlt: "The uploaded picture",
+					});
+				};
+				reader.readAsDataURL(file);
+			}
+		};
+	};
+
 	return (
 		<>
 			<h1 className="title">Lodgings</h1>
@@ -74,6 +99,9 @@ const Lodging = () => {
 				<table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
 					<thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
 						<tr>
+							<th scope="col" className="px-6 py-3">
+								Room ID
+							</th>
 							<th scope="col" className="px-6 py-3">
 								Room name
 							</th>
@@ -108,6 +136,7 @@ const Lodging = () => {
 							let rupiah = new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR" }).format(el.price);
 							return (
 								<tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700" key={el.id}>
+									<td className="px-6 py-4">{el.id}</td>
 									<th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 										{el.name}
 									</th>
@@ -121,6 +150,9 @@ const Lodging = () => {
 									<td className="px-6 py-4">
 										<Link className="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full" to={`/edit/${el.id}`}>
 											Edit
+										</Link>
+										<Link onClick={uploadImageHandler} className="bg-[#085f63] hover:bg-blue-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">
+											Upload
 										</Link>
 										<Link onClick={() => deleteHandler(el.id)} className="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">
 											Delete

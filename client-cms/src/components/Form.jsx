@@ -125,7 +125,6 @@ const CreateForm = ({ handleSubmit, lodging }) => {
 								value={imgUrl}
 							/>
 						</div>
-						<input type="file" name="imgFile" id="" />
 						<div className="inputbox">
 							<h3>Location</h3>
 							<input
