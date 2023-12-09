@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ファンダム要塞 (insider)</title>
+
+		<!-- CDN  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="Website icon" type="png" href="assets/logo/fandom-fortress-favicon-color.png" />
+	</head>
+	<body>
+		<!-- Login Section Start -->
+		<section class="login">
+			<div class="title">
+				<h1>Sign In</h1>
+			</div>
+			<div class="container">
+				<div class="left"></div>
+				<div class="right">
+					<div class="formbox">
+						<form action="" method="post">
+							<p>Email</p>
+							<input type="text" name="email" placeholder="email" />
+							<p>Password</p>
+							<input type="password" name="password" placeholder="password" />
+							<button class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Login</button>
+							<button class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Register</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Login Section End -->
+
+		<!-- Header Section Start -->
+		<section class="header">
+			<div class="flex">
+				<a href="" class="logo"><img src="assets/logo/png/logo-no-background.png" alt="" /></a>
+			</div>
+			<nav class="navbar">
+				<a href="">Type</a>
+				<a href="">Create</a>
+				<a href="">Logout</a>
+			</nav>
+		</section>
+		<!-- Header Section End -->
+
+		<!-- Table Section Start -->
+		<h1 class="title">Lodgings</h1>
+		<div class="relative overflow-x-auto">
+			<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+				<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+					<tr>
+						<th scope="col" class="px-6 py-3">ID</th>
+						<th scope="col" class="px-6 py-3">Room name</th>
+						<th scope="col" class="px-6 py-3">Facility</th>
+						<th scope="col" class="px-6 py-3">RoomCap</th>
+						<th scope="col" class="px-6 py-3">imgUrl</th>
+						<th scope="col" class="px-6 py-3">Price</th>
+						<th scope="col" class="px-6 py-3">typeId</th>
+						<th scope="col" class="px-6 py-3">authorId</th>
+						<th scope="col" class="px-6 py-3">Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+						<td class="px-6 py-4">1</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Apple MacBook Pro 17"</th>
+						<td class="px-6 py-4">Silver</td>
+						<td class="px-6 py-4">Laptop</td>
+						<td class="px-6 py-4">$2999</td>
+						<td class="px-6 py-4">$2999</td>
+						<td class="px-6 py-4">$2999</td>
+						<td class="px-6 py-4">$2999</td>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Edit</a>
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+						<td class="px-6 py-4">2</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Microsoft Surface Pro</th>
+						<td class="px-6 py-4">White</td>
+						<td class="px-6 py-4">Laptop PC</td>
+						<td class="px-6 py-4">$1999</td>
+						<td class="px-6 py-4">$1999</td>
+						<td class="px-6 py-4">$1999</td>
+						<td class="px-6 py-4">$1999</td>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Edit</a>
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+					<tr class="bg-white dark:bg-gray-800">
+						<td class="px-6 py-4">3</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Magic Mouse 2</th>
+						<td class="px-6 py-4">Black</td>
+						<td class="px-6 py-4">Accessories</td>
+						<td class="px-6 py-4">$99</td>
+						<td class="px-6 py-4">$99</td>
+						<td class="px-6 py-4">$99</td>
+						<td class="px-6 py-4">$99</td>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Edit</a>
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Table Section End -->
+
+		<!-- Create Section Start -->
+		<section class="book">
+			<h1 class="heading">
+				<span>N</span>
+				<span>E</span>
+				<span>W</span>
+				<span class="space"></span>
+				<span>F</span>
+				<span>O</span>
+				<span>R</span>
+				<span>T</span>
+				<span>R</span>
+				<span>E</span>
+				<span>S</span>
+				<span>S</span>
+			</h1>
+			<div class="row">
+				<div class="image">
+					<img src="assets/pngwing.com.png" alt="" />
+				</div>
+				<form action="" method="post">
+					<div class="inputbox">
+						<h3>Room Name</h3>
+						<input type="text" placeholder="enter room name" />
+					</div>
+					<div class="inputbox">
+						<h3>Facility</h3>
+						<input type="text" placeholder="enter room facility" />
+					</div>
+					<div class="inputbox">
+						<h3>Room Capacity</h3>
+						<input type="number" placeholder="room capacity" />
+					</div>
+					<div class="inputbox">
+						<h3>Image Url</h3>
+						<input type="text" placeholder="enter image url" />
+					</div>
+					<input type="file" name="imgFile" id="" />
+					<div class="inputbox">
+						<h3>Location</h3>
+						<input type="text" placeholder="enter location" />
+					</div>
+					<div class="inputbox">
+						<h3>Price</h3>
+						<input type="number" placeholder="enter price" />
+					</div>
+					<div class="inputbox">
+						<h3>Type Id</h3>
+						<input type="number" placeholder="enter type id" />
+					</div>
+					<button class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Create</button>
+				</form>
+			</div>
+		</section>
+		<!-- Create Section End -->
+
+		<!-- Edit Section Start -->
+		<section class="book">
+			<h1 class="heading">
+				<span>E</span>
+				<span>D</span>
+				<span>I</span>
+				<span>T</span>
+				<span class="space"></span>
+				<span>F</span>
+				<span>O</span>
+				<span>R</span>
+				<span>T</span>
+				<span>R</span>
+				<span>E</span>
+				<span>S</span>
+				<span>S</span>
+			</h1>
+			<div class="row">
+				<div class="image">
+					<img src="assets/pngwing.com.png" alt="" />
+				</div>
+				<form action="" method="post">
+					<div class="inputbox">
+						<h3>Room Name</h3>
+						<input type="text" placeholder="enter room name" />
+					</div>
+					<div class="inputbox">
+						<h3>Facility</h3>
+						<input type="text" placeholder="enter room facility" />
+					</div>
+					<div class="inputbox">
+						<h3>Room Capacity</h3>
+						<input type="number" placeholder="room capacity" />
+					</div>
+					<div class="inputbox">
+						<h3>Image Url</h3>
+						<input type="text" placeholder="enter image url" />
+					</div>
+					<input type="file" name="imgFile" id="" />
+					<div class="inputbox">
+						<h3>Location</h3>
+						<input type="text" placeholder="enter location" />
+					</div>
+					<div class="inputbox">
+						<h3>Price</h3>
+						<input type="number" placeholder="enter price" />
+					</div>
+					<div class="inputbox">
+						<h3>Type Id</h3>
+						<input type="number" placeholder="enter type id" />
+					</div>
+					<button class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Create</button>
+				</form>
+			</div>
+		</section>
+		<!-- Edit Section End -->
+
+		<!-- Table Section Start -->
+		<h1 class="title">Type</h1>
+		<div class="relative overflow-x-auto">
+			<table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+				<thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+					<tr>
+						<th scope="col" class="px-6 py-3">ID</th>
+						<th scope="col" class="px-6 py-3">Type Name</th>
+						<th scope="col" class="px-6 py-3">Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+						<td class="px-6 py-4">1</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Apple MacBook Pro 17"</th>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+						<td class="px-6 py-4">2</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Microsoft Surface Pro</th>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+					<tr class="bg-white dark:bg-gray-800">
+						<td class="px-6 py-4">3</td>
+						<th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">Magic Mouse 2</th>
+						<td class="px-6 py-4">
+							<a class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Delete</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Table Section End -->
+
+		<!-- Footer Section Start -->
+		<footer class="footer">
+			<div class="credit">created by <span>Aisyah Aulia Angelinee</span> | Graded Challenge P2-02 Insider Client Side Rendering!</div>
+		</footer>
+		<!-- Footer Section End -->
+
+		<!-- Register Section Start -->
+		<section class="register">
+			<div class="title">
+				<h1>Register</h1>
+			</div>
+			<div class="regis-container">
+				<div class="regis-left"></div>
+				<div class="regis-right">
+					<div class="regis-formbox">
+						<form action="" method="post">
+							<p>Username</p>
+							<input type="text" name="username" placeholder="username" />
+							<p>Email</p>
+							<input type="text" name="email" placeholder="email" />
+							<p>Password</p>
+							<input type="password" name="password" placeholder="password" />
+							<p>Phone Number</p>
+							<input type="text" name="phoneNumber" placeholder="phone-number" />
+							<p>Address</p>
+							<input type="text" name="address" placeholder="address" />
+							<button class="bg-[#085f63] hover:bg-[#49beb7] text-white hover:text-white font-bold py-2 px-4 rounded-full">Register</button>
+							<button class="bg-[#085f63] hover:bg-red-600 text-white hover:text-white font-bold py-2 px-4 rounded-full">Cancle</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Register Section End -->
+	</body>
+</html>

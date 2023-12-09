@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+:root {
+	--main-color: #085f63;
+	--sub-color: #49beb7;
+	--price-color: #b31312;
+	--white: #fff;
+	--black: #000;
+	--border1: 0.1rem solid var(--main-color);
+	--border2: 0.1rem solid var(--sub-color);
+}
+
+* {
+	/* font-family: "Comfortaa", sans-serif; */
+	font-family: "Advent Pro", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+*::selection {
+	background-color: var(--sub-color);
+	color: var(--main-color);
+}
+
+*::-webkit-scrollbar {
+	height: 0.5rem;
+	width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--sub-color);
+	border-radius: 5rem;
+}
+
+html {
+	font-size: 115%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+}
+
+body {
+	background-color: var(--white);
+}
+
+section {
+	padding: 1.5rem 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	margin-top: 2.5rem;
+	margin-bottom: 1.5rem;
+	font-size: 3rem;
+	color: var(--sub-color);
+	text-decoration: underline;
+	text-underline-offset: 1rem;
+}
+
+.heading {
+	text-align: center;
+	padding: 2.5rem 0;
+}
+
+/* Header Section Start */
+.header {
+	padding-bottom: 0;
+}
+
+.header .flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+
+.header .flex .logo {
+	color: var(--white);
+	font-size: 2.5rem;
+}
+
+.header .flex .btn {
+	margin-top: auto;
+}
+
+.header .flex .logo img {
+	width: 180px;
+}
+
+.header .flex .fa-bars {
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: var(--main-color);
+	display: none;
+}
+
+.header .navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1.5rem;
+	margin-top: 2rem;
+	background-color: var(--sub-color);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.header .navbar a {
+	font-size: 1.3rem;
+	color: var(--white);
+	padding: 0.1rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.header .navbar a:hover {
+	background-color: var(--main-color);
+	color: var(--sub-color);
+}
+/* Header Section Start */
+
+/* Login Section Start */
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	margin: 0;
+	padding: 0;
+	color: var(--sub-color);
+	text-transform: capitalize;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.container {
+	width: 50%;
+	height: 450px;
+	background: var(--white);
+	margin: 0 auto;
+	border: 1rem solid var(--main-color);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container .left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url(https://media.discordapp.net/attachments/712325980349530122/1182223580017213460/image0_0.jpg?ex=6583ea82&is=65717582&hm=f354efa631d3d5cc79af4dfae57b5f526222cca31af2f331eb28bac8c07e538f&=&format=webp&width=1056&height=1056);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.container .right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.formbox {
+	width: 100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background: var(--white);
+}
+
+.formbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.formbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"] {
+	border: none;
+	border-bottom: 2px solid var(--sub-color);
+	outline: none;
+	height: 40px;
+}
+
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus {
+	border-bottom: 2px solid var(--sub-color);
+}
+/* Login Section End */
+
+/* Create Section Start */
+.heading span {
+	font-size: 3.5rem;
+	background: var(--main-color);
+	color: var(--sub-color);
+	border-radius: 0.5rem;
+	padding: 0.2rem 1rem;
+}
+
+.heading span.space {
+	background: none;
+}
+
+.book .row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+}
+
+.book .row .image {
+	flex: 1 1 10rem;
+}
+
+.book .row .image img {
+	width: 100%;
+}
+
+.book .row form {
+	flex: 1 1 15rem;
+	padding: 2rem;
+	box-shadow: 0 1rem 2rem var(--black);
+	border-radius: 0.5rem;
+}
+
+.book .row form .inputbox {
+	padding: 0.5rem 0;
+}
+
+.book .row form .inputbox input {
+	width: 100%;
+	padding: 0.3rem;
+	border: 0.1rem solid var(--main-color);
+	font-size: 1rem;
+	color: var(--black);
+	text-transform: none;
+}
+
+.book .row form .inputbox h3 {
+	font-size: 1rem;
+	padding: 0;
+	color: var(--sub-color);
+}
+/* Create Section End */
+
+/* Footer Section Start */
+.credit {
+	padding: 1rem;
+	text-align: center;
+	background-color: var(--black);
+	color: var(--white);
+	font-size: 0.8rem;
+	text-transform: capitalize;
+}
+
+.credit span {
+	color: var(--sub-color);
+	font-weight: bold;
+}
+/* Footer Section End */
+
+/* Register Section Start */
+.regis-container {
+	width: 100%;
+	height: 650px;
+	background: var(--white);
+	margin: 0 auto;
+	border: 1rem solid var(--main-color);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.regis-container .regis-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url(https://media.discordapp.net/attachments/712325980349530122/1182223580310798396/image1_0.jpg?ex=6583ea82&is=65717582&hm=30a2fce4b591dad16c5056110ce8cabcf1d7cc49a6fb4414ea047226990cb633&=&format=webp&width=1056&height=1056);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.regis-container .regis-right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.regis-formbox {
+	width: 100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background: var(--white);
+}
+
+.regis-formbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.regis-formbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.regis-formbox input[type="text"],
+.regis-formbox input[type="password"] {
+	border: none;
+	border-bottom: 2px solid var(--sub-color);
+	outline: none;
+	height: 40px;
+}
+
+.regis-formbox input[type="text"]:focus,
+.regis-formbox input[type="password"]:focus {
+	border-bottom: 2px solid var(--sub-color);
+}
+/* Register Section End */
