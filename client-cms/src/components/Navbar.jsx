@@ -19,6 +19,9 @@ const Navbar = () => {
 					<Link href="" to={"/create"}>
 						Create
 					</Link>
+					<Link href="" to={"/register"}>
+						Register (Admin)
+					</Link>
 					<Link
 						href=""
 						onClick={() => {
