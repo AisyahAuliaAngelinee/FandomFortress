@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo/png/logo-no-background.png";
 
 const Navbar = () => {
 	return (
@@ -6,7 +7,7 @@ const Navbar = () => {
 			<section className="header">
 				<div className="flex">
 					<Link href="" className="logo">
-						<img src="assets/logo/png/logo-no-background.png" alt="" />
+						<img src={logo} alt="" />
 					</Link>
 				</div>
 				<nav className="navbar">
