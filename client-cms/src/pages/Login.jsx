@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import axios from "axios";
+import logo from "../assets/logo/png/logo-no-background.png";
 
 const Login = () => {
 	const [email, setEmail] = useState("");
@@ -49,7 +50,7 @@ const Login = () => {
 			<section class="header">
 				<div class="flex">
 					<Link href="" class="logo">
-						<img src="assets/logo/png/logo-no-background.png" alt="" />
+						<img src={logo} alt="" />
 					</Link>
 				</div>
 			</section>
@@ -58,7 +59,9 @@ const Login = () => {
 					<h1>Sign In</h1>
 				</div>
 				<div className="container">
-					<div className="left"></div>
+					<div className="left">
+						<img src=""></img>
+					</div>
 					<div className="right">
 						<div className="formbox">
 							<form action="" onSubmit={submitLogin}>
