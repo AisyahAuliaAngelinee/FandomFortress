@@ -105,7 +105,7 @@ const Cards = () => {
 						<h1 className="car-name">Studio</h1>
 					</div>
 					<div className="caraousel-img3">
-						<h1 className="car-name">Suite</h1>
+						<h1 className="car-name">Regular</h1>
 					</div>
 				</Carousel>
 			</div>
