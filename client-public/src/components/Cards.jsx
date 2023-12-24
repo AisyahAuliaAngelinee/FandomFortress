@@ -53,7 +53,7 @@ const Cards = () => {
 	async function fetchRoom() {
 		try {
 			setLoading(true);
-			const { data } = await axios.get(`https://vclrshna.online/public?page=${currentPage}&limit=12&keyword=${search}&sortBy=id`);
+			const { data } = await axios.get(`https://localhost:3000/public?page=${currentPage}&limit=12&keyword=${search}&sortBy=id`);
 			setRoom(data.result.data);
 			setTotalPage(data.result.totalPage);
 		} catch (err) {
